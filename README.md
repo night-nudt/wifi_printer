@@ -1,2 +1,2 @@
 # wifi_printer
-Printer pictures comes from WiFi Upload, via USB printer.
+Printe pictures comes from WiFi Upload, via USB printer.
