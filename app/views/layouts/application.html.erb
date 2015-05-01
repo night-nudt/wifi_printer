@@ -8,6 +8,12 @@
 </head>
 <body>
 
+<% if flash[:notice] -%>
+	<div id="notice" style="border: dotted 2px green; padding: 5px 15px; color: brown; background-color: yellow;">
+		<b><%= flash[:notice] %></b>
+	</div>
+<% end %>
+
 <%= yield %>
 
 </body>

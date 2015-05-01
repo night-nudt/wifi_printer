@@ -1,0 +1,7 @@
+<h1>Welcome to WiFi Printer</h1>
+
+<%= form_tag( {action: :upload}, {multipart: true} ) do %>
+	<span>Upload a picture file (bmp, jpg, png): </span>
+	<%= file_field_tag :data_file %>
+	<%= submit_tag 'upload' %>
+<% end %>
